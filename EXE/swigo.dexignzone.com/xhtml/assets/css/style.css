@@ -83,9 +83,9 @@
   --title: #222222; }
 
 [data-color="color_1"] {
-  --primary: #7DA640;
-  --primary-hover:#6d9533;
-  --primary-dark: #4a6a1a;
+  --primary: #f4c11c;
+  --primary-hover:#e11e28;
+  --primary-dark: #e11e28;
   --rgba-primary-1: rgba(125, 166, 64, 0.1);
   --rgba-primary-2: rgba(125, 166, 64, 0.2);
   --rgba-primary-3: rgba(125, 166, 64, 0.3);
@@ -11793,7 +11793,7 @@ section {
 @media only screen and (max-width: 1540px) {
   .swiper-wrapper {
     margin-top: 100px;
-    height: 600px; } 
+    height: 900px; } 
   .banner-inner {
     height: 600px; } 
   .new-food{
@@ -15003,7 +15003,7 @@ button:focus {
     font-weight: 500;
     font-size: 12px;
     line-height: 20px;
-    background: #666666;
+    background: #e11e28;
     border-radius: 10px; }
 
 .btn.btn-hover-3, .btn-hover-3.wp-block-button__link {

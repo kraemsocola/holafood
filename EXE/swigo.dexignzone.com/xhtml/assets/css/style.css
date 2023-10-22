@@ -9549,7 +9549,7 @@ strong,
 .content-inner-1 {
   padding-top: 100px;
   padding-bottom: 10px; 
-  height: 700px;}
+}
   @media only screen and (max-width: 991px) {
     .content-inner-1 {
       height: 700px;
@@ -9557,7 +9557,6 @@ strong,
       padding-bottom: 20px; } }
   @media only screen and (max-width: 575px) {
     .content-inner-1 {
-      height: 2000px;
       padding-top: 30px;
       padding-bottom: 10px; } }
 
@@ -11790,10 +11789,12 @@ section {
 
 /*=== Layout ===*/
 /*=== TuanLinh ===*/
+
+
 @media only screen and (max-width: 1540px) {
   .swiper-wrapper {
     margin-top: 100px;
-    height: 900px; } 
+ } 
   .banner-inner {
     height: 600px; } 
   .new-food{
@@ -11805,7 +11806,8 @@ section {
     height: 600px;
     padding-top: 90px;
     padding-bottom: 20px;
-  } }
+  }
+ }
 @media only screen and (max-width: 991px) {
   .swiper-wrapper {
     margin-top: 100px;
@@ -11821,22 +11823,28 @@ section {
     height: 700px;
     padding-top: 50px;
     padding-bottom: 20px;
-    }}
+    }
+  .store{
+    height : 800px;
+  }}
 @media only screen and (max-width: 575px) {
   .swiper-wrapper {
     margin-top: 100px;
-    height: 200px; }
+    height: 500px; }
   .banner-inner {
     height: 200px; } 
   .new-food{
-    height: 2300px;
+    height: 2350px;
     padding-top: 50px;
     padding-bottom: 20px;
     }
   .popular-food{
-    height: 500px;
+    height: 800px;
     padding-top: 50px;
     padding-bottom: 20px;
+  }
+  .store{
+    height : 800px;
   }
   }
 .logo-header {

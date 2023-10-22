@@ -819,6 +819,7 @@ progress {
   --bs-gutter-x: 30px;
   --bs-gutter-y: 0;
   width: 100%;
+  height: 100%;
   padding-right: calc(var(--bs-gutter-x) * .5);
   padding-left: calc(var(--bs-gutter-x) * .5);
   margin-right: auto;
@@ -9549,7 +9550,7 @@ strong,
 .content-inner-1 {
   padding-top: 100px;
   padding-bottom: 10px; 
-  height: 700px;}
+  height: auto;}
   @media only screen and (max-width: 991px) {
     .content-inner-1 {
       height: 700px;
@@ -12168,6 +12169,7 @@ section {
         .header-nav .nav > li.has-mega-menu > a::after {
           content: "\f078";
           font-size: 10px;
+          
           margin-left: 7px;
           margin-top: 0;
           vertical-align: middle;
